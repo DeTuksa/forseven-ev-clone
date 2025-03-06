@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Image from "next/image";
+import CraftingForever from "./components/craftingForever";
 
 export default function Home() {
   return (
@@ -78,22 +79,7 @@ export default function Home() {
       </div>
 
 
-      <div className="relative min-h-screen flex flex-col items-center justify-center text-center px-6 bg-gradient-to-b from-white to-gray-100">
-        <div className="absolute top-20 w-px h-32 bg-gray-300"></div>
-        <div className="relative z-10">
-          <h2 className="text-3xl md:text-5xl font-light text-gray-700">
-            Crafting forever
-          </h2>
-          <p className="mt-4 text-gray-500 max-w-lg mx-auto">
-            Creating exceptional cars that blend British elegance
-            with ferocious intelligence to forge a new legacy, forever.
-          </p>
-          <a href="#" className="inline-block mt-6 text-sm text-gray-600 border-b border-gray-600 tracking-wide">
-            DISCOVER MORE
-          </a>
-        </div>
-      </div>
-
+      <CraftingForever />
     </div>
   );
 }
